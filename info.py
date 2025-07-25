@@ -20,7 +20,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '7869145686:AAF95CcyytamphsQM7eUVgDLn4Ij2ok
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7832626481').split()]
 USERNAME = environ.get('USERNAME', "https://telegram.me/dotxbrain")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002823302885'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+GMisvnc6K19kMGZl')
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/dotxbrain_group')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002842829182').split()]
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://infodotxbrain:bq3jxV3MFfHNNztx@cluster0.nrlf6aw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
@@ -53,7 +53,7 @@ YEARS = [f'{i}' for i in range(2024 , 2002,-1 )]
 SEASONS = [f'season {i}'for i in range (1 , 23)]
 REF_PREMIUM = 30
 PREMIUM_POINT = 1500
-auth_channel = environ.get('AUTH_CHANNEL', '-1002714564403')
+auth_channel = environ.get('AUTH_CHANNEL', '-1002878453492')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '7832626481'))
 request_channel = environ.get('REQUEST_CHANNEL', '-1002823302885')
